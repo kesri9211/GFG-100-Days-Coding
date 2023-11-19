@@ -1,6 +1,9 @@
 /*Given two linked lists sorted in increasing order, create a new linked list representing the intersection of the two linked lists. 
 The new linked list should be made with without changing the original lists.*/
 
+/*APPROACH: Traverse both linked lists simultaneously, comparing values. 
+   If the values are equal, add that node to our result linked list. 
+   Move the pointer to the next node with the smaller value.*/
 class Solution
 {
    public static Node findIntersection(Node head1, Node head2)
