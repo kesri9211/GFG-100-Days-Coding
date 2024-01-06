@@ -2,7 +2,6 @@
 Note: can you take care of the duplicates without using any additional Data Structure?
 
 Example 1:
-
 Input:
 n1 = 6; A = {1, 5, 10, 20, 40, 80}
 n2 = 5; B = {6, 7, 20, 80, 100}
